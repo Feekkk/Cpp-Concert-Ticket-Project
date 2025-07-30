@@ -26,3 +26,25 @@ This is a simple C++ console application for booking concert tickets. The projec
 1. **Compile the program:**
    ```sh
    g++ main.cpp -o concert_ticket
+
+2. **Run the executable:**
+   ```sh
+   ./concert_ticket
+
+## Usage
+1. The program will display the concert stage layout.
+2. Enter customer details as prompted.
+3. Select the number of tickets and seat type.
+4. A receipt will be generated and saved to `receipt.txt`.
+5. Customer information will be saved to `customerInfo.txt`.
+6. You can choose to book tickets for another customer or exit the program.     
+
+## Example Output
+
+```
+Welcome to the Concert Ticket Booking System!
+Here is the concert stage layout:
+[ASCII art from stage.txt]
+Please enter your name: John Doe
+Please enter your phone number: 0123456789
+Please enter your email:
